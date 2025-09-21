@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 1rem;
+}
+nav .logo {
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #f4b400;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem;
+  background: #444;
+  color: #fff;
+}
+.hero span {
+  color: #f4b400;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+}
+.about, .projects, .contact {
+  background: #fff;
+  margin: 1rem auto;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Project Cards */
+.project-card {
+  background: #f9f9f9;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 4px solid #f4b400;
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+form button {
+  background: #f4b400;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+form button:hover {
+  background: #333;
+}
